@@ -33,11 +33,11 @@ if [ "$PHP_BINARY" == "" ]; then
 fi
 
 if [ "$POCKETMINE_FILE" == "" ]; then
-	if [ -f ./PocketMine-MP.phar ]; then
-		POCKETMINE_FILE="./PocketMine-MP.phar"
+	if [ -f ./BloodMine-MP.phar ]; then
+		POCKETMINE_FILE="./BloodMine-MP.phar"
 	else
-		echo "PocketMine-MP.phar not found"
-		echo "Downloads can be found at https://github.com/pmmp/PocketMine-MP/releases"
+		echo "BloodMine-MP.phar not found"
+		echo "Downloads can be found at https://github.com/nxpinhum5326/BloodMine-MP/releases"
 		exit 1
 	fi
 fi
