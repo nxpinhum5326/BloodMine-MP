@@ -1,5 +1,5 @@
 @echo off
-TITLE PocketMine-MP server software for Minecraft: Bedrock Edition
+TITLE BloodMine-MP server software for Minecraft: Bedrock Edition
 cd /d %~dp0
 
 set PHP_BINARY=
@@ -22,11 +22,11 @@ if "%PHP_BINARY%"=="" (
 	exit 1
 )
 
-if exist PocketMine-MP.phar (
-	set POCKETMINE_FILE=PocketMine-MP.phar
+if exist BloodMine-MP.phar (
+	set POCKETMINE_FILE=BloodMine-MP.phar
 ) else (
-	echo PocketMine-MP.phar not found
-	echo Downloads can be found at https://github.com/pmmp/PocketMine-MP/releases
+	echo BloodMine-MP.phar not found
+	echo Downloads can be found at https://github.com/nxpinhum5326/BloodMine-MP/releases
 	pause
 	exit 1
 )
