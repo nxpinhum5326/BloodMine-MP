@@ -1,3 +1,5 @@
+THE PROTECT IS DEAD FOR AN INDEFINITE PERIOD!
+
 <p align="center">
 	<a href="https://pmmp.io">
 		<!--[if IE]>
